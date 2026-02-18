@@ -78,10 +78,27 @@ Make sure:
 
 # 🎥 Section 2: Demo Video
 
-Demo Video URL:
-
 
 <https://drive.google.com/file/d/1FAelX1G4lfyynZcMwVjzem0SCUbjru8a/view?usp=sharing>
+
+
+
+
+## 📱 App Screenshots
+
+<table align="center">
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/de224856-5fe0-4566-b3b0-d0f6f66575f6" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/62a2cbd0-66f8-40f8-98e7-ab098b93edd0" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/0b1b7c3e-50e5-47ec-b774-48d812129f32" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/869a6ae5-865a-4381-a75b-545f6790b70c" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/b98dc7fd-f20a-4450-aaec-226592edba66" width="250"/></td>
+    <td><img src="https://github.com/user-attachments/assets/bf1c5966-5c2d-4e62-a6d7-44fe1c2da55e" width="250"/></td>
+  </tr>
+</table>
+
 
 
 ---
@@ -114,18 +131,3 @@ Abas Ashkar
 GitHub: [https://github.com/abasashkar](https://github.com/abasashkar)
 
 ---
-
-## 📱 App Screenshots
-
-<table align="center">
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/de224856-5fe0-4566-b3b0-d0f6f66575f6" width="250"/></td>
-    <td><img src="https://github.com/user-attachments/assets/62a2cbd0-66f8-40f8-98e7-ab098b93edd0" width="250"/></td>
-    <td><img src="https://github.com/user-attachments/assets/0b1b7c3e-50e5-47ec-b774-48d812129f32" width="250"/></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/869a6ae5-865a-4381-a75b-545f6790b70c" width="250"/></td>
-    <td><img src="https://github.com/user-attachments/assets/b98dc7fd-f20a-4450-aaec-226592edba66" width="250"/></td>
-    <td><img src="https://github.com/user-attachments/assets/bf1c5966-5c2d-4e62-a6d7-44fe1c2da55e" width="250"/></td>
-  </tr>
-</table>
