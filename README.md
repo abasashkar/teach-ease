@@ -1,90 +1,90 @@
 # 📌 Attendance Management System
 
-This project consists of:
-
-•⁠  ⁠🔐 Auth Service (Backend)  
-•⁠  ⁠📊 Attendance Service (Backend)  
-•⁠  ⁠📱 Flutter Mobile App  
-•⁠  ⁠🐳 Dockerized Setup  
+A full-stack attendance management system built with microservices architecture and a Flutter mobile client.
 
 ---
 
-# 🚀 Section 1: How To Run The Project
+## 🔧 Project Structure
 
-## ✅ Step 1: Clone Backend Repositories
+- 🔐 **Auth Service** – Handles authentication and JWT  
+- 📊 **Attendance Service** – Manages classes and attendance  
+- 📱 **Flutter Mobile App** – Client application  
+- 🐳 **Dockerized Setup** – Runs all backend services  
 
-Clone both backend services:
+---
 
-⁠ bash
+# 🚀 How to Run the Project
+
+## 1️⃣ Clone Backend Repositories
+
+```bash
 git clone https://github.com/abasashkar/be-authservices
 git clone https://github.com/abasashkar/be-attendanceservices
- ⁠
+```
 
-After cloning:
+After cloning, add your `.env` file inside both directories:
 
-•⁠  ⁠Add your ⁠ .env ⁠ file inside both directories:
-  - ⁠ be-authservices/ ⁠
-  - ⁠ be-attendanceservices/ ⁠
+- `be-authservices/`
+- `be-attendanceservices/`
 
-Make sure environment variables are properly configured before running Docker.
+Ensure all required environment variables are properly configured before running Docker.
 
 ---
 
-## ✅ Step 2: Run Docker Compose
+## 2️⃣ Run Docker Compose
 
-From the root directory (where your ⁠ docker-compose.yml ⁠ file exists), run:
+From the root directory (where `docker-compose.yml` exists), run:
 
-⁠ bash
+```bash
 docker compose up --build
- ⁠
+```
 
 This will:
 
-•⁠  ⁠Build all services  
-•⁠  ⁠Start Auth Service  
-•⁠  ⁠Start Attendance Service  
-•⁠  ⁠Start PostgreSQL  
-•⁠  ⁠Start Redis  
+- Build all services  
+- Start Auth Service  
+- Start Attendance Service  
+- Start PostgreSQL  
+- Start Redis  
 
 ---
 
-## ✅ Step 3: Clone Flutter Mobile App
+## 3️⃣ Clone Flutter Mobile App
 
-⁠ bash
+```bash
 git clone https://github.com/abasashkar/attendance_app
- ⁠
+```
 
-Navigate into the Flutter project:
+Navigate into the project:
 
-⁠ bash
+```bash
 cd attendance_app
- ⁠
+```
 
 ---
 
-## ✅ Step 4: Run Flutter App
+## 4️⃣ Run Flutter App
 
-⁠ bash
+```bash
 flutter pub get
 flutter run
- ⁠
+```
 
 Make sure:
 
-•⁠  ⁠Emulator is running *or*  
-•⁠  ⁠Physical device is connected  
+- An emulator is running  
+  OR  
+- A physical device is connected  
 
 ---
 
-# 🎥 Section 2: Demo Video
+# 🎥 Demo Video
 
+https://drive.google.com/file/d/1FAelX1G4lfyynZcMwVjzem0SCUbjru8a/view?usp=sharing
 
-<https://drive.google.com/file/d/1FAelX1G4lfyynZcMwVjzem0SCUbjru8a/view?usp=sharing>
+---
 
-
-
-
-## 📱 App Screenshots
+# 📱 App Screenshots
 
 <table align="center">
   <tr>
@@ -99,35 +99,31 @@ Make sure:
   </tr>
 </table>
 
-
-
 ---
 
 # 🛠 Tech Stack
 
-•⁠  ⁠Node.js  
-•⁠  ⁠Express.js  
-•⁠  ⁠PostgreSQL  
-•⁠  ⁠Redis  
-•⁠  ⁠Prisma  
-•⁠  ⁠Docker  
-•⁠  ⁠Flutter  
+- Node.js  
+- Express.js  
+- PostgreSQL  
+- Redis  
+- Prisma  
+- Docker  
+- Flutter  
 
 ---
 
 # 📦 Architecture Overview
 
-•⁠  ⁠*Auth Service* → Handles authentication & JWT  
-•⁠  ⁠*Attendance Service* → Manages classes & attendance  
-•⁠  ⁠*PostgreSQL* → Database  
-•⁠  ⁠*Redis* → Caching  
-•⁠  ⁠*Flutter* → Mobile client  
+- **Auth Service** → Handles authentication and JWT  
+- **Attendance Service** → Manages classes and attendance  
+- **PostgreSQL** → Database  
+- **Redis** → Caching  
+- **Flutter** → Mobile client  
 
 ---
 
 # 👨‍💻 Author
 
 Abas Ashkar  
-GitHub: [https://github.com/abasashkar](https://github.com/abasashkar)
-
----
+GitHub: https://github.com/abasashkar
